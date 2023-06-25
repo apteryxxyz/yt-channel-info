@@ -1,3 +1,5 @@
+This is a modified version of [yt-channel-info](https://github.com/FreeTubeApp/yt-channel-info) intended for myself.
+
 # YouTube Channel Info NodeJS Documentation
 This library is designed to receive channel data from YouTube without accessing the official API.
 <br />

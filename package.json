@@ -1,5 +1,5 @@
 {
-  "name": "yt-channel-info",
+  "name": "@apteryxxyz/yt-channel-info",
   "version": "3.2.1",
   "description": "Grab YouTube channel information without any official API",
   "main": "index.js",
