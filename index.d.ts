@@ -248,7 +248,7 @@ declare module "yt-channel-info" {
     class YoutubeGrabber {
         static getChannelInfo(payload: ChannelInfoPayload): Promise<ChannelInfo>;
 
-        static getChannelVideos(payload: ChannelVideosPayload): ChannelInfoResponse<Video>;
+        static getChannelVideos(payload: ChannelVideosPayload): Promise<ChannelInfoResponse<Video>>;
 
         static getChannelVideosMore(payload: ContinuationPayload): Promise<ChannelInfoResponseContinuation<Video>>;
 
@@ -262,7 +262,7 @@ declare module "yt-channel-info" {
 
         static getChannelLivestreams(payload: ChannelLivestreamsPayload): ChannelInfoResponse<Video>;
 
-        static getChannelShorts(payload: ChannelShortsPayload): ChannelInfoResponse<Video>;
+        static getChannelShorts(payload: ChannelShortsPayload): Promise<ChannelInfoResponse<Video>>;
 
         static getRelatedChannelsMore(payload: ContinuationPayload): Promise<ChannelInfoResponseContinuation<RelatedChannel>>;
 
